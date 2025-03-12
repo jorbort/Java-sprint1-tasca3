@@ -9,7 +9,7 @@ class FileReader {
 
     public FileReader() {}
 
-    HashMap<String, String> readFile() {
+    HashMap<String, String> readFile() throws FileNotFoundException {
         HashMap<String, String> map = new HashMap<>();
         try {
             File file = new File(fileRoute);
@@ -23,9 +23,7 @@ class FileReader {
             }
             scanner.close();
         } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Bad format in line");
+            throw new FileNotFoundException(e.getMessage());
         }
         return map;
     }
