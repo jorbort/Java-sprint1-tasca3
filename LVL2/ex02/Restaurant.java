@@ -1,3 +1,4 @@
+package LVL2.ex02;
 import java.util.Objects;
 
 class Restaurant implements Comparable<Restaurant> {

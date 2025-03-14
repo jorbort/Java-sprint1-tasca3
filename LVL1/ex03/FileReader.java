@@ -1,3 +1,4 @@
+package LVL1.ex03;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
@@ -5,9 +6,11 @@ import java.util.Scanner;
 
 class FileReader {
 
-    String fileRoute = "./countries.txt";
+    String fileRoute ;
 
-    public FileReader() {}
+    public FileReader() {
+		this.fileRoute = System.getProperty("user.dir") + "/LVL1/ex03/countries.txt";
+	}
 
     HashMap<String, String> readFile() throws FileNotFoundException {
         HashMap<String, String> map = new HashMap<>();

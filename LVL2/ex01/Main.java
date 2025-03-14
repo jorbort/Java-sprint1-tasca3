@@ -1,3 +1,4 @@
+package LVL2.ex01;
 import java.util.HashSet;
 
 class Main {
