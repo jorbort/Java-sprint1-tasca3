@@ -9,7 +9,7 @@ class FileReader {
     String fileRoute ;
 
     public FileReader() {
-		this.fileRoute = System.getProperty("user.dir") + "/LVL1/ex03/countries.txt";
+		this.fileRoute =  "LVL1/ex03/countries.txt";
 	}
 
     HashMap<String, String> readFile() throws FileNotFoundException {
