@@ -29,17 +29,18 @@ class Main {
                     "Whats the capital of: " + randomEntry.getKey()
                 );
                 String answer = userInput.nextLine();
-                if (
-                    answer
-                        .toLowerCase()
-                        .trim()
-                        .equals(randomEntry.getValue().trim().toLowerCase())
-                ) userScore++;
+                if (  answer.toLowerCase().trim().equals(randomEntry.getValue().trim().toLowerCase())){
+					userScore++;
+					System.out.println("Correct answer your score so far is: " + userScore);
+
+				} 
+
             }
             userInput.close();
             File scoreboard = new File("classification.txt");
             FileWriter writer = new FileWriter(scoreboard.getName(), true);
             writer.write(username + " : " + userScore + "\n");
+			System.out.println("Your final score is: " + userScore);
             writer.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());

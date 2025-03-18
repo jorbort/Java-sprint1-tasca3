@@ -1,34 +1,34 @@
 # Java-sprint1-tasca3
-tercera tasca del primer sprint de java
+third task of the first Java sprint
 
 # Java Collections Exercises
 
-Este proyecto contiene una serie de ejercicios para practicar el uso de colecciones en Java.
+This project contains a series of exercises to practice the use of collections in Java.
 
-## Nivel 1
+## Level 1
 
-### Ejercicio 1
-- Implementación de una clase `Month` con ArrayList y HashSet
-- Demostración de orden y manejo de duplicados
-- Recorrido con for e iterator
+### Exercise 1
+- Implementation of a `Month` class with ArrayList and HashSet
+- Demonstration of order and handling of duplicates
+- Iteration with for loop and iterator
 
-### Ejercicio 2
-- Manejo de List<Integer>
-- Uso de ListIterator para inversión de elementos
+### Exercise 2
+- Handling of List<Integer>
+- Use of ListIterator for reversing elements
 
-### Ejercicio 3
-- Lectura de archivo countries.txt
-- Implementación de juego de capitales
-- Uso de HashMap para almacenamiento
-- Escritura de resultados en classificacio.txt
+### Exercise 3
+- Reading from countries.txt file
+- Implementation of a capitals game
+- Use of HashMap for storage
+- Writing results to classification.txt
 
-## Nivel 2
+## Level 2
 
-### Ejercicio 1
-- Implementación de clase Restaurant
-- Control de duplicados en HashSet
-- Manejo de equals() y hashCode()
+### Exercise 1
+- Implementation of a Restaurant class
+- Handling duplicates in HashSet
+- Use of equals() and hashCode()
 
-### Ejercicio 2
-- Ordenamiento de Restaurant por nombre y puntuación
-- Implementación de Comparable
+### Exercise 2
+- Sorting Restaurant by name and rating
+- Implementation of Comparable
